@@ -14,33 +14,33 @@ LOGGER = logging.getLogger(__name__)
 
 api_id = int(os.environ.get("APP_ID", "9181844"))
 api_hash = os.environ.get("API_HASH", "996a3e7194a4f07576fda5c20bb1138b")
-bot_token = os.environ.get("TOKEN", "5680467811:AAEiPVvMR7_oFz28-rsONKuIeeVqWaNVlaI")
+bot_token = os.environ.get("TOKEN", "5924749122:AAFxQ0AuxiT1mFBg3NYcIyLUGNmsYveUPEw")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm ⟵꯭⋆ᷟ🦋⋆𝐀𖾓𖾓𖽹𖾓𖽪𖽴𖽞┃𝐐𖽪𖽞፝֟𖽞𖽡┃ⲙ𖽪𖽪❥⃟👸🏻࿐ mention Bot**, ⟵꯭⋆ᷟ🦋⋆𝐀𖾓𖾓𖽹𖾓𖽪𖽴𖽞┃𝐐𖽪𖽞፝֟𖽞𖽡┃ⲙ𖽪𖽪❥⃟👸🏻࿐ can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Owner [@FRADUMUU]",
+    "__**I'm ⃝⃪⃕⃔✮𝐌𝛊ᮨ𝚛꯭⃕𝛂𝚌𝖑𝛆  mention Bot**, ⃝⃪⃕⃔✮𝐌𝛊ᮨ𝚛꯭⃕𝛂𝚌𝖑𝛆  can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Owner [@Im_over_thinker]",
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Owner', 'https://t.me/FRADUMUU'),
-        Button.url('📦 Support', 'https://t.me/supporytu')
+        Button.url('📣 Owner', 'https://t.me/Im_over_thinker'),
+        Button.url('📦 support', 'https://t.me/Ourschennai')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: @all \n__You can use this command with text what you want to mention others.__\n`Example: @all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nOwner [@FRADUMUU]"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: @all \n__You can use this command with text what you want to mention others.__\n`Example: @all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nOwner [@Im_over_thinker]"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Owner', 'https://t.me/FRADUMUU'),
-        Button.url('📦 Support', 'https://t.me/supporytu')
+        Button.url('📣 Owner', 'https://t.me/Im_over_thinker'),
+        Button.url('📦 Support', 'https://t.me/Ourschennai')
       ]
     )
   )
