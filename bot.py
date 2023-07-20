@@ -25,8 +25,8 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('♛ σωηєя', 'https://t.me/your_godfathet_xd'),
-        Button.url('✪ ¢нαηηєℓ', 'https://t.me/incricible')
+        Button.url('♛ σωηєя', 'https://t.me/your_godfather_xd'),
+        Button.url('✪ ɠɾσυρ', 'https://t.me/incricible')
       ]
     )
   )
@@ -40,7 +40,7 @@ async def help(event):
     buttons=(
       [
         Button.url('♛ σωηєя', 'https://t.me/your_godfather_xd'),
-        Button.url('✪ ¢нαηηєℓ', 'https://t.me/incricoble')
+        Button.url('✪ ɠɾσυρ', 'https://t.me/incricoble')
       ]
     )
   )
