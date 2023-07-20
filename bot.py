@@ -25,8 +25,8 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('♛ σωηєя', 'https://t.me/Alone_programmare'),
-        Button.url('✪ ¢нαηηєℓ', 'https://t.me/mirachlenetwork')
+        Button.url('♛ σωηєя', 'https://t.me/your_godfathet_xd'),
+        Button.url('✪ ¢нαηηєℓ', 'https://t.me/incricible')
       ]
     )
   )
@@ -39,8 +39,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('♛ σωηєя', 'https://t.me/Alone_programmare'),
-        Button.url('✪ ¢нαηηєℓ', 'https://t.me/mirachlenetwork')
+        Button.url('♛ σωηєя', 'https://t.me/your_godfather_xd'),
+        Button.url('✪ ¢нαηηєℓ', 'https://t.me/incricoble')
       ]
     )
   )
